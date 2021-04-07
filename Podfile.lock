@@ -1,0 +1,28 @@
+PODS:
+  - HydraAsync (2.0.5)
+  - NCMB (1.1.2)
+
+DEPENDENCIES:
+  - HydraAsync
+  - NCMB (from `https://github.com/NIFCLOUD-mbaas/ncmb_swift.git`)
+
+SPEC REPOS:
+  trunk:
+    - HydraAsync
+
+EXTERNAL SOURCES:
+  NCMB:
+    :git: https://github.com/NIFCLOUD-mbaas/ncmb_swift.git
+
+CHECKOUT OPTIONS:
+  NCMB:
+    :commit: c0a233c3d8c9b7151493da0d9420fc472d10f1b9
+    :git: https://github.com/NIFCLOUD-mbaas/ncmb_swift.git
+
+SPEC CHECKSUMS:
+  HydraAsync: 6b74390f143e7edfb8bd3c706262b67bbefc09df
+  NCMB: 71a6dc3bce6124739ef9d287fb8811664ae0968b
+
+PODFILE CHECKSUM: 6a458901d97c9209b3102937ceb087a7881a56de
+
+COCOAPODS: 1.10.1
