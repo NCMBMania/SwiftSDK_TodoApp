@@ -18,7 +18,7 @@ struct todoappApp: App {
         .onChange(of: scenePhase) { scene in
             switch scene {
             case .active:
-                NCMB.initialize(applicationKey: "9170ffcb91da1bbe0eff808a967e12ce081ae9e3262ad3e5c3cac0d9e54ad941", clientKey: "9e5014cd2d76a73b4596deffdc6ec4028cfc1373529325f8e71b7a6ed553157d")
+                NCMB.initialize(applicationKey: "YOUR_APPLICATION_KEY", clientKey: "YOUR_CLIENT_KEY")
                 NCMBUser.enableAutomaticUser()
                 let user = NCMBUser.currentUser
                 if user == nil {
